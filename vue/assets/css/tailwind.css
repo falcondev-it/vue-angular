@@ -1,0 +1,18 @@
+@import 'tailwindcss/base' layer(tailwindcss);
+@import 'tailwindcss/components' layer(tailwindcss);
+@import 'tailwindcss/utilities' layer(tailwindcss);
+@import 'primevue/resources/themes/lara-light-blue/theme.css';
+@import 'primevue/resources/primevue.min.css';
+
+@layer reset {
+  @tailwind base;
+}
+
+@layer tailwind {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+#__nuxt {
+  @apply h-full;
+}
